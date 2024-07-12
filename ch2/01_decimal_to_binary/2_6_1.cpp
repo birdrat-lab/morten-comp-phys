@@ -8,7 +8,7 @@ Exercise 2.6.1:
 
 The goal is to convert an arbitrary floating decimal to binary.
 
-nI implemented the following algorithm:
+I implemented the following algorithm:
 
 
 1. Check if the decimal is zero or negative.
