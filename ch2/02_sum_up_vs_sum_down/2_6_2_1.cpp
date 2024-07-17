@@ -1,3 +1,23 @@
+/**
+
+   Date: 07-14-24
+
+ We implement two different algorithms to compute the harmonic
+ sum for finite N.
+
+ The first, s_up, computes starting from 1 to N, the second, s_down,
+ begins with N and adds through n=1.
+
+ The program inputs N from the screen and allows one to toggle from
+ single to double precision.
+
+ The output of s_up and s_down is put to the screen. We expect s_up and
+ s_down to agree in double precision through N<1e16, and for single precision
+ (mostly) through 1e8.
+ 
+   
+**/
+
 
 #include <functional>
 #include <iostream>
