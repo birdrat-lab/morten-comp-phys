@@ -51,7 +51,7 @@ main
   std::function<bool(double,double)> equals, condition;;
   std::function<void(double*)> iterate_up, iterate_down;
   
-  filename = "2_6_2_2_double.dat";
+  filename = "../data/2_6_2_2_double.dat";
   column_space = "        ";
   int max_N=10;
   
